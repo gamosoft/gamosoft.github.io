@@ -1,0 +1,1 @@
+docker run --rm --volume ".:/data" pandoc/latex:3.1.1.0-alpine -s -c ./css/resume_styles.css README.md -o resume_guillermo_villar.html
